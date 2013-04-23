@@ -14,4 +14,4 @@ int main()
 ```
 
 The implementation the uses the **RDTSCP**, **RDTSC** and **CPUID** instruction as suggested in
-[http://www.intel.com/content/dam/www/public/us/en/documents/white-papers/ia-32-ia-64-benchmark-code-execution-paper.pdf](How to Benmark Code Execution Times on Intel IA32 and IA-64 Instruction Set Architectures) by Gabriele Paoloni.
+[How to Benmark Code Execution Times on Intel IA32 and IA-64 Instruction Set Architectures](http://www.intel.com/content/dam/www/public/us/en/documents/white-papers/ia-32-ia-64-benchmark-code-execution-paper.pdf) by Gabriele Paoloni.
