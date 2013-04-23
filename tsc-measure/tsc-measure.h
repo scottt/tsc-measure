@@ -35,8 +35,8 @@
  *
  * */
 
-#if !defined(__x86_64__)
-#error tsc-measure.h only supports x86-64
+#if !defined(__i386__) && !defined(__x86_64__)
+#error tsc-measure.h only supports x86 and x86-64
 #endif
 
 /* -> # of cycles */

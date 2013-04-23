@@ -1,8 +1,8 @@
 # Time Stamp Counter Performance Measuring
 
-[tsc-measure.h](https://github.com/scottt/tsc-measure/blob/master/tsc-measure.h) defines a pair of functions to measure code execution time in CPU cycles on x86-64:
+[tsc-measure.h](https://github.com/scottt/tsc-measure/blob/master/tsc-measure.h) defines a pair of inline functions to measure code execution time in CPU cycles on x86 and x86-4:
 ```C
-#include "tsc-measure.h"
+#include <tsc-measure/tsc-measure.h>
 int main()
 {
 	uint64_t t0, t1, cycles;
