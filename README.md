@@ -5,11 +5,11 @@
 #include <tsc-measure/tsc-measure.h>
 int main()
 {
-	uint64_t t0, t1, cycles;
-	t0 = tsc_measure_start();
+	uint64_t cycles_start, cycles_end, cycles;
+	cycles_start = tsc_measure_start();
 	/* ... code to be measured ... */
-	t1 = tsc_measure_stop();
-	cycles = t1 - t0;
+	cycles_end = tsc_measure_stop();
+	cycles = cycles_end - cycles_start;
 }
 ```
 
